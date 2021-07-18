@@ -3,9 +3,13 @@
 # An investigation in learning more about how a biological neuron could aid in enhancing the artificial neural network.
 
 [Pipeline](#Pipeline)
+
 [Logistic Regression](#Logistic-Regression)
+
 [Classification - K Nearest Neighboors](#Classification-K-Nearest-Neighboors)
+
 [What I can now hypothesis](#What-I-can-now-hypothesis)
+
 [Further Research](#Further-Research)
 
 For the last few years I have been facinated with Neural networks in the human brain and how they can relate to our understanding of the world. There are so many subjects that can be brought together to share common knowledge to inspire one another to progress our own research and others. When I found a data set on biological neurons potential to enhance deep neural networks, I was amazed that people were already working on things that I was inspired to do. 
