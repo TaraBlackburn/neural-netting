@@ -3,6 +3,10 @@
 # An investigation in learning more about how a biological neuron could aid in enhancing the artificial neural network.
 
 [Pipeline](#Pipeline)
+[Logistic Regression](#Logistic-Regression)
+[Classification - K Nearest Neighboors](#Classification-K-Nearest-Neighboors)
+[What I can now hypothesis](#What-I-can-now-hypothesis)
+[Further Research](#Further-Research)
 
 For the last few years I have been facinated with Neural networks in the human brain and how they can relate to our understanding of the world. There are so many subjects that can be brought together to share common knowledge to inspire one another to progress our own research and others. When I found a data set on biological neurons potential to enhance deep neural networks, I was amazed that people were already working on things that I was inspired to do. 
 
@@ -44,7 +48,7 @@ Since I did have unbalanced data, I used a Precision and Recall Curve to show th
 
 ![Precision Recall](https://user-images.githubusercontent.com/61055286/126071697-3db8d454-aece-4417-bbe8-1fde7b124a21.png)  
 
-# Classification - K Nearest Neighboors
+# Classification K Nearest Neighboors
 Finding K with elbow curves using distortion (with Euclidean), and inertia. 
 
 ![elbow_inertia](https://user-images.githubusercontent.com/61055286/126071755-6b385a4c-49ca-4660-8e1f-2cfb56958c48.png)
