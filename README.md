@@ -34,9 +34,7 @@ Basal | 94% |  99%
 
 This Confusion Matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
 
-
-![confusion_kN](https://user-images.githubusercontent.com/61055286/126071761-d220cd51-3bbe-4e3b-9553-9afde2b07f14.png)
-
+![confusion_LR](https://user-images.githubusercontent.com/61055286/126071810-f17ed2d2-cff4-4035-aaef-f2632fa154c9.png)
 
 I assume because while a basal dendrite can stretch out from the Soma, it could reach a length where the smallest Apical dendrite may be a smililar length.
 
@@ -51,9 +49,23 @@ Finding K with elbow curves using distortion (with Euclidean), and inertia.
 
 ![elbow_distort](https://user-images.githubusercontent.com/61055286/126071757-cb77ce1e-1186-4af1-9647-ed2643fc5022.png)
 
+AFter finding my K value for the number of clusters, I fit the model and predicted my testing data. These were my results: 
+
+![confusion_kN](https://user-images.githubusercontent.com/61055286/126071761-d220cd51-3bbe-4e3b-9553-9afde2b07f14.png)
+I believe because this is a classification and my model is generally easy to classify, I was able to achieve 100% accuracy, precision and recall. 
 
 # What I can now hypothesis
 *Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
+
 *What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
+
 *Excitatory inputs terminate exclusively on the dendritic spines (dense portions of the dendrite).
+
 *Inhibitory inputs terminate on dendritic shafts, the soma, and even the axon (which as intended for outputs) this could indicate that inhibitory inputs could hold much more weight than an excitatory input, potentially even bypassing the hidden layers. 
+
+# Further Research
+
+*This data, from what I have seen shows the excitatory responses from NMDA, but does not mention any of the inhibitory such as GABA, but does include inhibitory synapses in the code, leading me to believe it may be unbalanced. 
+
+*Given the information above, I believe that further research on inhibitory responses may need to be implemented as they may hold more weight in the development of outputs in a neuron (given that inhibitory inputs can terminate their voltage on an axon).
+
