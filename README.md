@@ -35,6 +35,8 @@ Basal | 94% |  99%
 This Confusion Matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
 
 
+![confusion_kN](https://user-images.githubusercontent.com/61055286/126071761-d220cd51-3bbe-4e3b-9553-9afde2b07f14.png)
+
 
 I assume because while a basal dendrite can stretch out from the Soma, it could reach a length where the smallest Apical dendrite may be a smililar length.
 
@@ -42,6 +44,12 @@ Since I did have unbalanced data, I used a Precision and Recall Curve to show th
 
 ![Precision Recall](https://user-images.githubusercontent.com/61055286/126071697-3db8d454-aece-4417-bbe8-1fde7b124a21.png)  
 
+# Classification - K Nearest Neighboors
+Finding K with elbow curves using distortion (with Euclidean), and inertia. 
+
+![elbow_inertia](https://user-images.githubusercontent.com/61055286/126071755-6b385a4c-49ca-4660-8e1f-2cfb56958c48.png)
+
+![elbow_distort](https://user-images.githubusercontent.com/61055286/126071757-cb77ce1e-1186-4af1-9647-ed2643fc5022.png)
 
 
 # What I can now hypothesis
