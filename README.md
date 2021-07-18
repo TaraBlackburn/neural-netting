@@ -79,3 +79,6 @@ I believe because this is a classification and my model is generally easy to cla
 
 *Given the information above, I believe that further research on inhibitory responses may need to be implemented as they may hold more weight in the development of outputs in a neuron (given that inhibitory inputs can terminate their voltage on an axon).
 
+
+Data from: David Beniaguev, “Single Neurons as Deep Nets - NMDA test data.” Kaggle, 2019, doi: 10.34740/KAGGLE/DS/417817.
+
