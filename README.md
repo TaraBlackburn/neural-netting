@@ -27,16 +27,18 @@ I used a Logistic Regression model and KNieghborClassifer.
 **Results**
 
 With Regression I received a 97% overall accuracy. 
-*Apical Precision - 100%, Recall - 96%
-*Basal Precision - 94%, Recall - 99%
+Dendrite | Precision | Recall
+------------ | ------------ | -------------
+Apical | 100% | 96%
+Basal | 94% |  99%
 
-See ![Confusion Matrix](/img/confusion_LR.png). This confusion matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
+This ![Confusion Matrix](img/confusion_LR.png) is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
 
 I assume because while a basal dendrite can stretch out from the Soma, it could reach a length where the smallest Apical dendrite may be a smililar length.
 
 Since I did have unbalanced data, I used a Precision and Recall Curve to show the difference in the true positives and the positive predictive value for my Logisitic Regression with and without cross validation. 
 
-This image shows the ![Precision and Recall](https://github.com/TaraBlackburn/neural-netting/blob/main/img/precision_recall.png) Curve. 
+This image shows the ![Precision and Recall](/img/precision_recall.png) Curve. 
 
 
 
