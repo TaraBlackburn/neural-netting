@@ -30,7 +30,7 @@ With Regression I received a 97% overall accuracy.
 Apical Precision - 100%, Recall - 96%
 Basal Precision - 94%, Recall - 99%
 
-See [Confusion Matrix]('img/confusion_LR.png'). This confusion matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
+See [Confusion Matrix]('../img/confusion_LR.png'). This confusion matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
 
 I assume because while a basal dendrite can stretch out from the Soma, it could reach a length where the smallest Apical dendrite may be a smililar length.
 
