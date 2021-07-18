@@ -27,21 +27,21 @@ I used a Logistic Regression model and KNieghborClassifer.
 **Results**
 
 With Regression I received a 97% overall accuracy. 
-Apical Precision - 100%, Recall - 96%
-Basal Precision - 94%, Recall - 99%
+*Apical Precision - 100%, Recall - 96%
+*Basal Precision - 94%, Recall - 99%
 
-See [Confusion Matrix]('../img/confusion_LR.png'). This confusion matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
+See ![Confusion Matrix](/img/confusion_LR.png). This confusion matrix is using Logisitic Regression without Cross Validation, although if you see the Precision Recall Curve below there is not a significant difference between the two regression. 
 
 I assume because while a basal dendrite can stretch out from the Soma, it could reach a length where the smallest Apical dendrite may be a smililar length.
 
 Since I did have unbalanced data, I used a Precision and Recall Curve to show the difference in the true positives and the positive predictive value for my Logisitic Regression with and without cross validation. 
 
-This image shows the ![Precision and Recall]('img/precision_recall.png') Curve. 
+This image shows the ![Precision and Recall](https://github.com/TaraBlackburn/neural-netting/blob/main/img/precision_recall.png) Curve. 
 
 
 
 # What I can now hypothesis
-Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
-What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
-Excitatory inputs terminate exclusively on the dendritic spines (dense portions of the dendrite).
-Inhibitory inputs terminate on dendritic shafts, the soma, and even the axon (which as intended for outputs) this could indicate that inhibitory inputs could hold much more weight than an excitatory input, potentially even bypassing the hidden layers. 
+*Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
+*What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
+*Excitatory inputs terminate exclusively on the dendritic spines (dense portions of the dendrite).
+*Inhibitory inputs terminate on dendritic shafts, the soma, and even the axon (which as intended for outputs) this could indicate that inhibitory inputs could hold much more weight than an excitatory input, potentially even bypassing the hidden layers. 
