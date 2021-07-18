@@ -49,7 +49,7 @@ Finding K with elbow curves using distortion (with Euclidean), and inertia.
 
 ![elbow_distort](https://user-images.githubusercontent.com/61055286/126071757-cb77ce1e-1186-4af1-9647-ed2643fc5022.png)
 
-AFter finding my K value for the number of clusters, I fit the model and predicted my testing data. These were my results: 
+After finding my K value for the number of clusters, I fit the model and predicted my testing data. These were my results: 
 
 ![confusion_kN](https://user-images.githubusercontent.com/61055286/126071761-d220cd51-3bbe-4e3b-9553-9afde2b07f14.png)
 I believe because this is a classification and my model is generally easy to classify, I was able to achieve 100% accuracy, precision and recall. 
