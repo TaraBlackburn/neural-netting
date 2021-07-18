@@ -23,8 +23,10 @@ This dataset was used and shared (please see below for original dataset) with th
 
 I used a Logistic Regression model and KNieghborClassifer.
 
-This Image shows the ![Precision and Recall]('img/precision_recall.png') Curve. 
+Since I did have unbalanced data I used a Precision and Recall Curve to show the difference in the true positives and the positive predictive value for my Logisitic Regression with and without cross validation. 
 
+This Image shows the ![Precision and Recall]('img/precision_recall.png') Curve. 
+![plot]('img/precision_recall.png')
 
 
 # What I can now hypothesis
