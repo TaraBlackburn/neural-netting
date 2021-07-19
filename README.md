@@ -17,15 +17,15 @@ For the last few years I have been fascinated with Neural networks in the human 
 This dataset was used and shared (please see below for original dataset) with the anticipation that the biological neural networks could impact the understanding and computational abilities of our artifical neural networks. Here I attempt to utilized and transform this dataset to compact the findings and see if the computational abilities may embolden our advancement in artifical neural nets. 
 
 # Pipeline
--Reading documentation on works provided
-  -Trying to visualize the author’s intentions
--Researching and understanding the code
-   -Changing course of action
--Importing the data from pickle files
-   -7668 rows × 5 columns
--LabelEncoder for target.
-   -Less columns to process (instead of one hot encoder) and still binary for my data
--Running Regressions vs Classification 
+* Reading documentation on works provided
+  * Trying to visualize the author’s intentions
+* Researching and understanding the code
+   * Changing course of action
+* Importing the data from pickle files
+   * 7668 rows × 5 columns
+* LabelEncoder for target.
+   * Less columns to process (instead of one hot encoder) and still binary for my data
+* Running Regressions vs Classification 
 
 ## Ran simple Machine Learning models to determine whether the dendrite is Basal vs Apical based on lengths
  
