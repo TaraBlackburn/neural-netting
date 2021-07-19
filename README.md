@@ -53,7 +53,7 @@ Since I did have unbalanced data, I used a Precision and Recall Curve to show th
 ![Precision Recall](https://user-images.githubusercontent.com/61055286/126071697-3db8d454-aece-4417-bbe8-1fde7b124a21.png)  
 
 # Classification K Nearest Neighboors
-Finding K with elbow curves using distortion (with Euclidean), and inertia. 
+Finding k with elbow curves - distortion (with Euclidean), and inertia. 
 
 ![elbow_inertia](https://user-images.githubusercontent.com/61055286/126071755-6b385a4c-49ca-4660-8e1f-2cfb56958c48.png)
 
@@ -65,19 +65,19 @@ After finding my K value for the number of clusters, I fit the model and predict
 I believe because this is a classification and my model is generally easy to classify, I was able to achieve 100% accuracy, precision and recall. 
 
 # What I can now hypothesize
-*Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
+* Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
 
-*What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
+* What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
 
-*Excitatory inputs terminate exclusively on the dendritic spines (dense portions of the dendrite).
+* Excitatory inputs terminate exclusively on the dendritic spines (dense portions of the dendrite).
 
-*Inhibitory inputs terminate on dendritic shafts, the soma, and even the axon (which as intended for outputs) this could indicate that inhibitory inputs could hold much more weight than an excitatory input, potentially even bypassing the hidden layers. 
+* Inhibitory inputs terminate on dendritic shafts, the soma, and even the axon (which as intended for outputs) this could indicate that inhibitory inputs could hold much more weight than an excitatory input, potentially even bypassing the hidden layers. 
 
 # Further Research
 
-*This data, from what I have seen shows the excitatory responses from NMDA, but does not mention any of the inhibitory such as GABA, but does include inhibitory synapses in the code, leading me to believe it may be unbalanced. 
+* This data, from what I have seen shows the excitatory responses from NMDA, but does not mention any of the inhibitory such as GABA, but does include inhibitory synapses in the code, leading me to believe it may be unbalanced. 
 
-*Given the information above, I believe that further research on inhibitory responses may need to be implemented as they may hold more weight in the development of outputs in a neuron (given that inhibitory inputs can terminate their voltage on an axon).
+* Given the information above, I believe that further research on inhibitory responses may need to be implemented as they may hold more weight in the development of outputs in a neuron (given that inhibitory inputs can terminate their voltage on an axon).
 
 
 Data from: David Beniaguev, “Single Neurons as Deep Nets - NMDA test data.” Kaggle, 2019, doi: 10.34740/KAGGLE/DS/417817.
