@@ -8,7 +8,7 @@
 
 [Classification - K Nearest Neighboors](#Classification-K-Nearest-Neighboors)
 
-[What I can now hypothesis](#What-I-can-now-hypothesis)
+[What I can now hypothesize](#What-I-can-now-hypothesize)
 
 [Further Research](#Further-Research)
 
@@ -64,7 +64,7 @@ After finding my K value for the number of clusters, I fit the model and predict
 ![confusion_kN](https://user-images.githubusercontent.com/61055286/126071761-d220cd51-3bbe-4e3b-9553-9afde2b07f14.png)
 I believe because this is a classification and my model is generally easy to classify, I was able to achieve 100% accuracy, precision and recall. 
 
-# What I can now hypothesis
+# What I can now hypothesize
 *Knowing the morphology of the cell (i.e. is it basal or apical) could potentially enhance the research of how fast the voltages from the inputs travel down the dendrites by it’s length and type. 
 
 *What is an interesting fact is that a single pyramidal cell receives about 30,000 excitatory and 1,700 inhibitory inputs which are received in different parts of the neuron (i.e. basal vs apical)
