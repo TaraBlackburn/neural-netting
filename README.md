@@ -1,6 +1,6 @@
 # Neural-Netting
 
-# An investigation in learning more about how a biological neuron could aid in enhancing the artificial neural network.
+## An investigation in learning more about how a biological neuron could aid in enhancing the artificial neural network.
 
 [Pipeline](#Pipeline)
 
